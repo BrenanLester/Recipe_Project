@@ -1,1 +1,1 @@
-Need pa siya ng Improvement, Babaguhin pa naman yung CSS kaya sensya na sa design.
+Need pa siya ng Improvement, Babaguhin pa naman yung CSS kaya sensya na sa design. If may gusto kayo pabaguhin just message me. Tapos paki test na din and pakisabi sakin yung mga errors and yung kulang pa sa code.
