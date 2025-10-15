@@ -723,10 +723,84 @@ const recipes = [
     ]
     },
 
+    {
+    id: 25,
+    title: "Beef Broccoli",
+    category: "Filipino - Vegetables",
+    image: "Images/BeefBroccoli.jpg",
+    ingredients: [
+            {
+              title: "Main Ingredients",
+              ingredients: [
+                  "1 lb. beef, sliced into thin pieces",
+                  "2 cups broccoli, cut into florets",
+                  "2 teaspoons ginger, minced",
+                  "2 cloves garlic, minced",
+                  "1 tablespoon cornstarch",
+                  "½ to ¾ cups water (optional)",
+                  "¼ cup cooking oil",
+                  "Salt and ground black pepper, to taste"
+              ]
+          },
+          {
+              title: "Marinade Ingredients",
+              ingredients: [
+                  "¼ cup oyster sauce",
+                  "1 tablespoon Knorr Liquid Seasoning",
+                  "½ teaspoon sesame oil (optional)",
+                  "3 tablespoons cooking wine (optional)",
+                  "1 teaspoon granulated white sugar"
+              ]
+          },
+    ],
+    steps: [
+        "In a bowl, combine beef, oyster sauce, Knorr Liquid Seasoning, sesame oil, cooking wine, and sugar.",
+        "Mix well and marinate beef for 15 minutes.",
+        "Add cornstarch to the marinated beef and mix until fully incorporated. Set aside.",
+        "Heat 2 tablespoons of cooking oil in a pot over medium heat.",
+        "Sauté ginger and garlic until aromatic, before garlic browns.",
+        "Add broccoli and stir-fry for 1–2 minutes. Remove from pot and set aside.",
+        "Pour remaining oil into the same pot.",
+        "Add marinated beef and stir-fry until it browns.",
+        "(Optional) Add ½ to ¾ cup water to tenderize beef further. Let it boil and stir until sauce thickens.",
+        "Season with salt and ground black pepper to taste.",
+        "Add cooked broccoli back to the pot.",
+        "Stir-fry everything together for 3 minutes.",
+        "Transfer to a serving plate and serve hot."
+    ]
+    },
+    {
+    id: 26,
+    title: "Ginataang Sitaw sa Kalabasa",
+    category: "Filipino - Vegetables",
+    image: "Images/Ginataang Sitaw sa Kalabasa.png",
+    ingredients: [
+        "4 cloves garlic, crushed and chopped",
+        "1 onion, chopped",
+        "1 lb calabaza squash, sliced",
+        "12 pieces string beans (cut into 2-inch lengths)",
+        "45 grams Knorr Ginataang Gulay Mix",
+        "1 ½ cups water",
+        "Salt, to taste",
+        "Ground black pepper, to taste"
+    ],
+    steps: [
+        "Heat oil in a pan over medium heat.",
+        "Sauté chopped garlic and onion until fragrant.",
+        "Add sliced calabaza squash and stir-fry for 2 minutes.",
+        "Add string beans and cook for another 2 minutes, stirring occasionally.",
+        "In a separate container, mix Knorr Ginataang Gulay Mix with 1 ½ cups of water.",
+        "Pour the mixture into the pan and cover.",
+        "Let it boil and cook for 5 to 7 minutes.",
+        "Season with salt and ground black pepper to taste.",
+        "Serve hot."
+    ]
+    },
+
     // No-cook
 
     {
-    id: 25,
+    id: 27,
     title: "Cucumber Tuna Bites",
     category: "No-cook",
     image: "Images/Tuna.png",
@@ -744,43 +818,200 @@ const recipes = [
         "Slice the cucumber into bite-sized rounds (no need to peel).",
         "In a medium bowl, combine drained tuna, mayonnaise, and garlic powder.",
         "Season with salt and pepper to taste and mix well.",
+        "Stir everything together until well combined.",
         "Arrange cucumber slices on a serving platter.",
         "Top each slice with a small spoonful of tuna mixture.",
-        "Garnish with sliced green onions if desired."
+        "If desired, garnish each with chopped green onions."
     ]
     },
     {
-    id: 26,
+    id: 28,
     title: "Fresh Spring Rolls",
     category: "Filipino - No-cook",
     image: "Images/Fresh Lumpia.jpg",
     ingredients: [
-        "Vermicelli rice noodles – 1 package (6–8 oz)",
-        "Chicken breast – 1 large, boiled and thinly sliced",
-        "Shrimp – 12 medium, deveined with shells on",
-        "Lettuce leaves – 6–8 pieces",
-        "Carrots – 1 large, julienned",
-        "Cucumber – 1 small, julienned",
-        "Bell peppers – 1, thinly sliced",
-        "Fresh herbs – mint, cilantro, or Thai basil (optional)",
-        "Rice paper wrappers – about 12 sheets",
-        "Salt – for boiling chicken and shrimp",
-        "Cold water – for soaking rice paper and cooling noodles",
-        "Hoisin sauce – ¼ cup",
-        "Peanut butter – 2 tablespoons",
-        "Hot water – 2–4 tablespoons (for sauce)",
-        "Crushed dry roasted peanuts – for topping"
+            {
+                title: "Filling Ingredients",
+                ingredients: [
+                    "Vermicelli rice noodles – 1 package (6–8 oz)",
+                    "Chicken breast – 1 large, boiled and thinly sliced",
+                    "Shrimp – 12 medium, deveined with shells on",
+                    "Lettuce leaves – 6–8 pieces",
+                    "Carrots – 1 large, julienned",
+                    "Cucumber – 1 small, julienned",
+                    "Bell peppers – 1, thinly sliced",
+                    "Fresh herbs – mint, cilantro, or Thai basil (optional)",
+                    "Rice paper wrappers – about 12 sheets",
+                    "Salt – for boiling chicken and shrimp",
+                    "Cold water – for soaking rice paper and cooling noodles"
+                ]
+            },
+            {
+                title: "Peanut Dipping Sauce Ingredients",
+                ingredients: [
+                    "Hoisin sauce – ¼ cup",
+                    "Peanut butter – 2 tablespoons",
+                    "Hot water – 2–4 tablespoons (for sauce)",
+                    "Crushed dry roasted peanuts – for topping"
+                ]
+            }
     ],
     steps: [
-        "Cook vermicelli noodles in boiling water for 15–20 minutes until soft, then rinse in cold water.",
-        "Boil chicken in salted water until fully cooked; slice thinly.",
-        "Boil shrimp in the same pot until pink, then peel and slice in half lengthwise.",
-        "Set up a rolling station with all ingredients ready.",
-        "Soak a rice paper sheet in lukewarm water for 5 seconds, then lay on a plate.",
-        "On the bottom third of the rice paper, place a lettuce leaf, noodles, vegetables, and chicken.",
-        "Fold in the sides and roll halfway, then add shrimp on top and finish rolling tightly.",
-        "To make dipping sauce: mix hoisin sauce, peanut butter, and hot water until smooth.",
-        "Top the sauce with crushed roasted peanuts before serving."
-    ]
+    {
+        step: "Cooking the Vermicelli Rice Noodles",
+        instructions: [
+            "Fill a large pot a little more than halfway with water.",
+            "Place the pot over high heat and bring the water to a boil.",
+            "Once boiling, add the vermicelli noodles and stir briefly to prevent sticking.",
+            "Cook the noodles for 15–20 minutes, checking for doneness.",
+            "The noodles are ready when they turn from transparent to white and are soft to the bite.",
+            "Remove the pot from heat immediately once noodles are done.",
+            "Carefully pour out the hot water into the sink.",
+            "Refill the pot with cold water to stop the cooking and cool the noodles.",
+            "Leave the noodles in the cold water while you portion them into small bundles.",
+            "Place each bundle into a strainer to drain."
+        ]
+    },
+    {
+        step: "Cooking the Chicken and Shrimp",
+        instructions: [
+            "Boil chicken in salted water until fully cooked.",
+            "Remove the chicken, let it cool slightly, then slice it into thin strips.",
+            "In the same pot of water, add the deveined shrimp (with shells still on).",
+            "Boil until the shrimp turn pinkish-orange and are cooked through.",
+            "Drain the shrimp and let them rest for 3–4 minutes.",
+            "Remove the shells from the shrimp.",
+            "(Optional) Slice the shrimp in half lengthwise for easier rolling."
+        ]
+    },
+    {
+        step: "Wrapping the Fresh Spring Rolls",
+        instructions: [
+            "Set up your rolling station with all ingredients ready.",
+            "Fill a large shallow dish or pie plate with about 1 inch of lukewarm water.",
+            "Briefly soak a sheet of rice paper in the water (about 5 seconds).",
+            "Remove the rice paper while it's still pliable (not fully soft) and lay it on a clean plate.",
+            "On the bottom third of the rice paper, place a lettuce leaf.",
+            "Add some noodles, veggies, and sliced chicken on top of the lettuce.",
+            "Fold in the sides of the rice paper.",
+            "Begin rolling from the bottom, tucking in tightly.",
+            "After one full roll, add sliced shrimp with the orange side down onto the rice paper.",
+            "Continue rolling tightly until sealed."
+        ]
+    },
+    {
+        step: "Making the Dipping Sauce",
+        instructions: [
+            "In a small bowl, combine hoisin sauce, peanut butter, and hot water.",
+            "Whisk until the sauce is smooth and well blended.",
+            "If the sauce is too thick, add more hot water 1 tablespoon at a time until it reaches your desired consistency.",
+            "Top with crushed dry roasted peanuts before serving."
+        ]
     }
+]
+
+    },
+    {
+    id: 29,
+    title: "Nachos and Salsa dip",
+    category: "No-cook",
+    image: "Images/Nachos.png",
+    ingredients: [
+        "6–8 Roma tomatoes (or small plum tomatoes), diced",
+        "1 small onion, peeled and rinsed",
+        "1 garlic clove",
+        "1 jalapeño (use half and deseed for less heat)",
+        "1/2 cup fresh cilantro leaves",
+        "1 tablespoon fresh lime juice",
+        "1/2 teaspoon lime zest",
+        "1/4 teaspoon ground cumin",
+        "Pinch of sugar",
+        "Salt, to taste",
+        "Nacho chips (pre-sold), for serving"
+    ],
+    steps: [
+        "Rinse the peeled onion.",
+        "Add onion and garlic to the food processor (you can use a blender).",
+        "Pulse until well-chopped.",
+        "Add diced tomatoes, chopped jalapeño, cilantro, lime juice, lime zest, cumin, sugar, and salt.",
+        "Pulse until combined but still chunky.",
+        "Taste and adjust seasoning or spice level if needed.",
+        "If salsa is too watery, strain half and mix with the remaining unstrained salsa.",
+        "Serve with nacho chips."
+    ]
+    },
+
+    // Smoothies
+
+    {
+    id: 30,
+    title: "Creamy Avocado Smoothie",
+    category: "Smoothies",
+    image: "Images/Creamy Avocado Smoothie.png",
+    ingredients: [
+        "1 cup cold milk",
+        "1/2 cup sweetened condensed milk (plus more to taste)",
+        "1 cup ice",
+        "1 ripe avocado, flesh only",
+        "Cold water (as needed)"
+    ],
+    steps: [
+        "Add cold milk, sweetened condensed milk, and ice to a blender.",
+        "Blend until very smooth.",
+        "Add avocado flesh to the blender.",
+        "Blend again until completely smooth.",
+        "If the mixture is too thick, add cold water a few tablespoons at a time.",
+        "Blend after each addition until the mixture is pourable.",
+        "Taste and add more sweetened condensed milk if desired.",
+        "Serve in chilled glasses with straws."
+    ]
+    },
+    {
+    id: 31,
+    title: "Watermelon and Cucumber Smoothie",
+    category: "Smoothies",
+    image: "Images/Watermelon and Cucumber Smoothie.png",
+    ingredients: [
+        "1 cup chopped cucumber",
+        "1 cup buttermilk",
+        "1 tsp honey (optional)",
+        "1 tbsp lime juice",
+        "2 cups frozen watermelon (divided)",
+        "1–2 tbsp water (optional, to adjust consistency)",
+        "Cucumber slice (for garnish)"
+    ],
+    steps: [
+        "Add cucumber, buttermilk, honey (if using), and lime juice to a blender.",
+        "Blend on high until smooth.",
+        "Add half of the frozen watermelon and blend until almost completely smooth.",
+        "Turn off the blender and push down ingredients with a spatula or wooden spoon if needed.",
+        "Add the remaining frozen watermelon and continue to blend until smooth.",
+        "Add 1–2 tablespoons of water if needed to adjust consistency.",
+        "Pour into a glass and garnish with a cucumber slice."
+    ]
+    },
+    {
+    id: 32,
+    title: "Papaya Banana Smoothie",
+    category: "Smoothies",
+    image: "Images/Papaya Banana Smoothie.png",
+    ingredients: [
+        "1 cup milk",
+        "½ cup yogurt",
+        "½ teaspoon vanilla extract",
+        "1 ripe banana",
+        "½ cup chopped papaya",
+        "4–5 ice cubes"
+    ],
+    steps: [
+        "Add milk to the blender.",
+        "Add yogurt.",
+        "Add vanilla extract.",
+        "Peel and add the banana.",
+        "Add chopped papaya.",
+        "Add ice cubes.",
+        "Blend until smooth.",
+        "Pour into a large glass and serve."
+    ]
+    },
 ]
