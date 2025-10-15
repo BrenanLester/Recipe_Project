@@ -87,9 +87,30 @@
       </div>
       <div class="detail-section">
         <h4>Steps:</h4>
-        <ol>
-          ${Array.isArray(recipe.steps) ? recipe.steps.map(s => `<li>${s}</li>`).join('') : ''}
-        </ol>
+        ${
+          Array.isArray(recipe.steps)
+            ? recipe.steps
+                .map((s) => {
+                  // Case 1: If it's an object with title & instructions
+                  if (typeof s === "object" && s.step && Array.isArray(s.instructions)) {
+                    return `
+                      <div class="step-block">
+                        <h4>${s.step}</h4>
+                        <ol>
+                          ${s.instructions.map((inst) => `<li>${inst}</li>`).join("")}
+                        </ol>
+                      </div>
+                    `;
+                  }
+                  // Case 2: If it's just a string
+                  else if (typeof s === "string") {
+                    return `<li>${s}</li>`;
+                  }
+                  return "";
+                })
+                .join("")
+            : ""
+        }
       </div>
     `;
   } else {
